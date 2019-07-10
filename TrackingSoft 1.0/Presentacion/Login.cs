@@ -32,9 +32,9 @@ namespace TrackingSoft_1._0.Admistracion_Usuario
             txtUser.LostFocus += txtUser_LostFocus;
             txtPassword.LostFocus += txtPassword_LostFocus;
             //cnxBD = Settings.Default.Seguimiento_ProyectosYPFB_AviacionConnectionString;
-            /*cnxBD = getCadenaConexion();
+            cnxBD = getCadenaConexion();
             Auxiliar.setConexionStringBD(cnxBD);
-            detenerVerif = false;*/
+            detenerVerif = false;
         }
 
         public string getCadenaConexion()
